@@ -1,11 +1,56 @@
-\documentclass{scrartcl}
-\author{Luis Antonio Ramírez García}
-\title{Luis A. Ramírez García}
-\subtitle{ Zacatecas, Zacatecas 99544 - (+52) 499 100 5287 tonyramirez.business@outlook.com - linkedin.com/in/tonyramirez1 - github.com/Croobat }
-\author{}
-\date{}
+\documentclass{article}
 
-\begin{document}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=1in]{geometry}
+
+\renewcommand{\maketitle}{
+  \begin{center}
+    {
+      \huge\bfseries
+      \theauthor
+    }
+
+    \vspace{1em}
+
+    Zacatecas, Zacatecas 99544 - (+52) 499 100 5287
+
+    \vspace{0.5em}
+
+    tonyramirez.busines@outlook.com - linkedin.com/in/tonyramirez1 - github.com/Croobat
+
+  \end{center}
+}
+
+\titleformat{\section}
+{\huge\bfseries} % formatting
+{} % numbering
+{0em} % Distance between number and title
+{}[\titlerule] % Código entre el título y el numero
+
+\titleformat{\subsection}
+{\bfseries\Large}
+{$\bullet$}
+{0.2em}
+{}
+
+\titleformat{\subsubsection}
+{\bfseries}
+{}
+{0em}
+{}
+
+
+\author{Luis Antonio Ramírez García}
+
+\title{Luis A. Ramírez García}
+
+% \subtitle{ Zacatecas, Zacatecas 99544 - (+52) 499 100 5287 tonyramirez.business@outlook.com - linkedin.com/in/tonyramirez1 - github.com/Croobat }
+
+% \author{}
+% \date{}
+
+\begin{document}% {{{
 
   \maketitle
 
@@ -46,7 +91,7 @@
 
     \subsubsection{Markup}
 
-    HTML5/CSS3, {\LaTeX}, Markdown, XML, JSON
+    HTML5/CSS3, {\LaTeX}, Markdown, XML, JSON.
 
     \subsubsection{Frameworks}
 
@@ -58,11 +103,7 @@
 
     \subsection{Software}
 
-    Microsoft office suite, VIM, VSCode, Webpack module bundler,
-
-    Xilinx ISE, Solidworks/FreeCAD, Adobe Illustrator/Inkscape,
-
-    Adobe Photoshop/GIMP, Kdenlive, Aseprite.
+    Microsoft office suite, VIM, VSCode, Webpack module bundler, Xilinx ISE, Solidworks/FreeCAD, Adobe Illustrator/Inkscape, Adobe Photoshop/GIMP, Kdenlive, Aseprite.
 
 
   \section{General skills}
@@ -83,14 +124,6 @@
 
   \section{Industry experience}
 
-  \subsection{\textbf{Freelancing}, Zacatecas, Mexico}
-
-  Open Source Software Contributor
-
-  (11/2021) - Present
-
-  Developing various HTML,CSS and JS static sites through GitHub as a solo entrepeneur, as well as participating in game developing jams; developing free software written in GDScript.
-
   \subsection{\textbf{Unidad Profesional Interdisciplinaria de Ingeniería Zacatecas}, Zacatecas, Mexico}
 
   Tutoring advisor
@@ -98,6 +131,14 @@
   (02/2021) - (11/2021)
 
   Part of the IPN tutorial program by pairs. Teaching programming languages like C++, MATLAB and VHDL, as well as developing career-related projects.
+
+  \subsection{\textbf{Freelancing}, Zacatecas, Mexico}
+
+  Open Source Software Contributor
+
+  (11/2021) - Present
+
+  Developing various HTML,CSS and JS static sites through GitHub as a solo entrepeneur, as well as participating in game developing jams; developing free software written in GDScript.
 
 
   \section{Additional Work Experience}
@@ -164,4 +205,4 @@
 
   In my free time I enjoy reading, running, programming and learning while contributing to free and open source software. Learning and teaching is my passion.
 
-\end{document}
+\end{document}% }}}
