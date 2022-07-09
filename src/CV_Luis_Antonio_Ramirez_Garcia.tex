@@ -3,6 +3,9 @@
 \usepackage{titlesec}
 \usepackage{titling}
 \usepackage[margin=1in]{geometry}
+\usepackage{fontspec}
+
+\setmainfont{Arial}
 
 \renewcommand{\maketitle}{
   \begin{center}
@@ -13,11 +16,13 @@
 
     \vspace{1em}
 
-    Zacatecas, Zacatecas 99544 - (+52) 499 100 5287
+    Zacatecas, Zacatecas 99544 $\bullet$ (+52) 499 100 5287
 
     \vspace{0.5em}
 
-    tonyramirez.busines@outlook.com - linkedin.com/in/tonyramirez1 - github.com/Croobat
+    tonyramirez.business@outlook.com $\bullet$ linkedin.com/in/tonyramirez1 $\bullet$ github.com/Croobat
+
+    \vspace{-0.5em}
 
   \end{center}
 }
@@ -26,11 +31,11 @@
 {\huge\bfseries} % formatting
 {} % numbering
 {0em} % Distance between number and title
-{}[\titlerule] % Código entre el título y el numero
+{}[\titlerule] % Codigo entre el titulo y el numero
 
 \titleformat{\subsection}
-{\bfseries\Large}
-{$\bullet$}
+{\bfseries\large}
+{\hspace{0in}$\bullet$}
 {0.2em}
 {}
 
@@ -40,10 +45,15 @@
 {0em}
 {}
 
+\titlespacing{\subsubsection}
+{0em}
+{.5em}
+{.5em}
 
-\author{Luis Antonio Ramírez García}
 
-\title{Luis A. Ramírez García}
+\author{Luis Antonio Ramirez Garcia}
+
+\title{Luis A. Ramirez Garcia}
 
 % \subtitle{ Zacatecas, Zacatecas 99544 - (+52) 499 100 5287 tonyramirez.business@outlook.com - linkedin.com/in/tonyramirez1 - github.com/Croobat }
 
@@ -56,7 +66,7 @@
 
   \section{Summary}
 
-  Recent mechatronics engineering graduate with a focus in Front-end web development, as well as game development and Linux system administration.
+  Front-end web developer. Recent mechatronics engineering graduate with a focus in front-end development, as well as game development and Linux system administration services.
 
   \begin{itemize}
     \item Proficient in the process of designing, manufacturing and constructing mechatronics systems, as well as automate industrial processes.
@@ -117,53 +127,44 @@
 
   \section{Education}
 
-  Mechatronics engineer, 2022, 8.8
-
-  Instituto Politécnico Nacional; Unidad Profesional Interdisciplinaria de Ingeniería campus Zacatecas, Zacatecas, Mexico.
+  \subsection{Mechatronics engineer $\bullet$ 2022 $\bullet$ 8.8}
+  Instituto Politecnico Nacional.
+  Unidad Profesional Interdisciplinaria de Ingenieria campus Zacatecas.
+  Zacatecas, Mexico.
 
 
   \section{Industry experience}
 
-  \subsection{\textbf{Unidad Profesional Interdisciplinaria de Ingeniería Zacatecas}, Zacatecas, Mexico}
-
-  Tutoring advisor
-
-  (02/2021) - (11/2021)
-
-  Part of the IPN tutorial program by pairs. Teaching programming languages like C++, MATLAB and VHDL, as well as developing career-related projects.
-
   \subsection{\textbf{Freelancing}, Zacatecas, Mexico}
 
-  Open Source Software Contributor
-
-  (11/2021) - Present
+  \subsubsection{Open Source Software Contributor $\bullet$ (11/2021) - (Present)}
 
   Developing various HTML,CSS and JS static sites through GitHub as a solo entrepeneur, as well as participating in game developing jams; developing free software written in GDScript.
+
+  \subsection{Unidad Profesional Interdisciplinaria de Ingenieria campus Zacatecas, Zacatecas, Mexico}
+
+  \subsubsection{Tutoring advisor $\bullet$ (02/2021) - (11/2021)}
+
+  Part of the IPN tutorial program by pairs. Teaching programming languages like C++, MATLAB and VHDL, as well as developing career-related projects.
 
 
   \section{Additional Work Experience}
 
   \subsection{\textbf{Freelancing}, Zacatecas, Zacatecas}
 
-  Food deliveryman
-
-  (08/2019) - (03/2020)
+  \subsubsection{Food deliveryman $\bullet$ (08/2019) - (03-2020)}
 
   Distributor of self-made "burritos" between college classes.
 
   \subsection{\textbf{Lions International}, Zacatecas, Zacatecas}
 
-  Ambulant vendor
-
-  (06/2018) - (03/2019)
+  \subsubsection{Ambulant vendor$\bullet$ (06/2018) - (03-2019)}
 
   Sale and distribution of various products, from food to enviroment-friendly products. Ease of speech and dealing with the client.
 
   \subsection{\textbf{Radiadores Jose's}, Calera de Victor Rosales, Zacatecas}
 
-  Chief mechanic's assistant
-
-  (08/2016) - (03/2017)
+  \subsubsection{Chief mechanic's assistant $\bullet$ (08/2016) - (03-2017)}
 
   As a mechanic's assistant, learned to be clean and organized, as well as managing customer oriented tasks. Developing a tolerance to perform repetitive tasks.
 
